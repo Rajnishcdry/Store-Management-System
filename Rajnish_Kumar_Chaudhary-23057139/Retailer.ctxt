@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Retailer
+comment0.text=\r\nSymbolizes\ a\ Retailer\ inside\ a\ store.\r\nInherits\ the\ Store\ class's\ properties\ and\ methods.\r\nIncludes\ extra\ features\ including\ price\ with\ VAT\ included,\ loyalty\ points,\ and\ the\ status\ of\ online\ payments.\r\n\ offers\ ways\ to\ remove\ products,\ figure\ out\ loyalty\ points,\ and\ see\ retailer\ information.\r\n
+comment1.params=StoreId\ StoreName\ Location\ OpeningHour\ TotalSales\ TotalDiscount\ VATInclusivePrice\ IsPaymentOnline\ purchasedYear
+comment1.target=Retailer(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ double,\ int,\ boolean,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getVATInclusivePrice()
+comment3.params=
+comment3.target=int\ getLoyaltyPoint()
+comment4.params=
+comment4.target=boolean\ getisPaymentOnline()
+comment5.params=
+comment5.target=java.lang.String\ getPurchasedYear()
+comment6.params=isPaymentOnline
+comment6.target=void\ setIsPaymentOnline(boolean)
+comment7.params=isPaymentOnline\ VATInclusivePrice
+comment7.target=void\ setLoyaltyPoint(boolean,\ int)
+comment8.params=
+comment8.target=void\ removeProduct()
+comment9.params=
+comment9.target=void\ Display()
+numComments=10
